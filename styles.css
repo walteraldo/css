@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap');
+
+.contenido{
+  width: 850px; 
+  margin: 0 auto;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.section{
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  /* background-color: rgb(192, 192, 190); */
+}
+
+picture{
+  width: 100%;
+}
+
+.picture img{
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+}
+
+.img{
+  height: 90vh;
+}
+
+.aside {
+  margin-top: 3em;
+  margin-left: 2.5em;
+}
+
+.aside p{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.275em;
+  color: #5843a3;
+}
+
+.aside h1{
+  font-family: Rubik Maze;
+  font-size: 4.75em;
+  color: #8820c4;
+  /* color: #406b96; */
+}
+
+.contenido .container {
+  margin-top: 2em;
+  font-size: small;
+}
+
+.card {
+  margin-top: 2em;
+}
+
+.contenido h3{
+  text-align: center;
+}
+
+.footer {
+  position: relative;
+  padding-bottom: 2.3em;
+  min-height: 10vh;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  font-size: 0.6em;
+  height: 2.2em;
+  width: 850px;
+}
+
+
+
